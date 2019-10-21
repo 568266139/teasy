@@ -1,0 +1,135 @@
+.contactUs{
+    width: 100%;
+}
+.contactUs-us-center{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top:55px ;
+}
+.contactUs-text{
+    width: 50%;
+    padding: 0  46px 55px;
+}
+.contactUs-form{
+    width: 50%;
+    padding: 0  46px 55px;
+    border-left:1px #dfdfdf solid ;
+}
+.contactUs-QRcode{
+    display: flex;
+
+}
+.contactUs-text h2{
+    margin-bottom: 31px;
+    color: #000000;
+    font-size: 18px;
+}
+.contactUs-text>p{
+    margin-bottom:21px ;
+}
+.contactUs-text>p span:nth-child(1):not(.contactUs-time){
+    color: #333333;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+.contactUs-time{
+    font-size: 14px;
+    color: #999999;
+}
+    
+.contactUs-QRcode-img{
+    width: 135px;
+    height: 135px;
+}
+.contactUs-QRcode-img img{
+    width: 100%;
+    height: 100%;
+}
+.contactUs-QRcode-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 60px;
+    text-align: center;
+}
+
+.contactUs-QRcode-text p:nth-child(1){
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 22px;
+    
+}
+.contactUs-QRcode-text p:nth-child(2){
+font-size: 18px;
+color: #333333;
+}
+.contactUs-QRcode-text p span{
+    color: #14916a;
+    font-weight:inherit;
+ 
+    
+}
+.contactUs-form h2{
+    text-align: center;
+    color: #333333;
+    font-weight: inherit;
+    margin-bottom: 31px;
+}
+.contactUs-forms>ul>li{
+    list-style-type: none;
+    margin-bottom:18px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.contactUs-forms>ul>li>i{
+    color: red;
+    position: relative;
+    left: 10px;
+    top: 7px;
+    
+}
+.contactUs-forms>ul>li span{
+    margin-right:30px;
+    margin-left:18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+.contactUs-forms li input:not(.contactUs-submit),select{
+    width: 273px;
+    height: 35px;
+    padding-left: 11px;
+    box-sizing: border-box;
+    outline-color: #14916a;
+}
+.contactUs-forms li select{
+    position: relative;
+    left: 3px;
+}
+
+.contactUs-submit{
+    width: 275px;
+    height: 60px;
+    background: #333333;
+    border-radius: 60px;
+    border: 0;
+    color: white;
+    font-size: 24px;
+
+}
+.contactUs-forms li:last-child{
+    margin-top: 55px;
+}
+.contactUs-map-center{
+    width: 100%;
+    margin-top: 50px;
+}
+.contactUs-map-center img{
+width: 100%;
+height: 100%;
+}

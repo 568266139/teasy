@@ -1,0 +1,52 @@
+.case{
+    width: 100%;
+    display: flex;
+}
+.case-center{
+    width: 1200px;
+    margin: 39px auto;
+    
+}
+.case-center li{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.case-center li>div{
+    width: 588px;
+    height: 400px;
+    background: #14916a;
+    position: relative;
+}
+.case-center li>div img{
+    width: 100%;
+    height: 100%;
+}
+.case-center li>div div{
+position: absolute;
+width: 531px;
+height: 0;
+background: rgba(0, 0, 0, .4);
+top: 30px;
+left: 30px;
+display: flex;
+align-items: center;
+justify-content: center;
+overflow: hidden;
+
+}
+.case-center li>div div p{
+    text-align: center;
+    font-size: 24px;
+    color: #f3f3f3;
+}
+.case-center li>div{
+    cursor: pointer;
+}
+.case-center li>div:hover div{
+    height: 340px;
+    transition: height .4s;
+    
+}
+

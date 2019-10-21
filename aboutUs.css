@@ -1,0 +1,121 @@
+.aboutUs-box{
+    width: 100%;
+}
+
+.aboutUs-box-center{
+    width: 1200px;
+    margin: auto;
+}
+.aboutUs-list{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top:50px ;
+}
+.aboutUs-list>div,h2{
+    margin-bottom: 9px;
+}
+.aboutUs-list-icon{
+    width: 27px;
+    height: 27px;
+}
+.aboutUs-list h2{
+    color: #333333;
+    font-size: 32px;
+    font-weight: inherit;
+}
+.aboutUs-list-itle{
+    width: 180px;
+    height: 26px;
+    border: 1px #b6b6b6 solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.aboutUs-list-itle p{
+    text-align: center;
+    color: #666666;
+    font-size: 12px;
+}
+/*  */
+.aboutUs-list-img{
+    width: 1200px;
+    height: 470px;
+    position: relative;
+    overflow: hidden;
+}
+.aboutUs-list-img img{
+    /* width: 100%; */
+    position: absolute;
+    bottom: -142px;
+    left: 0;
+    /* height: 100%; */
+}
+.aboutUs-list-intro{
+   width: 324px;
+   height: 100%;
+   background: rgba(0, 0, 0, .5); 
+   position: absolute;
+   top:0;
+   left: 0;
+   padding: 39px 31px;
+   box-sizing: border-box;
+}
+.intro{
+    border-bottom:1px rgba(182, 182, 182, .5) solid ;
+    height: 67px;
+}
+.intro h2{
+font-weight: inherit;
+color: #ffffff;
+font-size: 27px;
+margin: 0;
+}
+.intro p{
+    color: #ffffff;
+font-size: 14px;
+}
+.aboutUs-list-intro>p{
+    font-size: 14px;
+    color: #ffffff;
+    text-indent:2em;
+    line-height:2;
+   
+}
+/*  */
+.aboutUs-lists-img{
+    width: 1200px;
+    height: 466px;
+    overflow: hidden;
+    position: relative;
+    margin: 0;
+}
+.aboutUs-lists-img img{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+.aboutUs-lists-box{
+    width: 100%;
+    height: 84px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutUs-lists-box h2{
+text-align: center;
+font-size: 25px;
+color: #ffffff;
+}
+.aboutUs-lists-box p{
+    font-size: 14px;
+    color: #f3f3f3f3;
+    text-align: center;
+
+}

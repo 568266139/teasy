@@ -1,0 +1,63 @@
+.newdetail{
+    width: 100%;
+}
+.newdetail-center{
+    width: 1200px;
+    margin: 30px auto;
+    padding: 30px 40px;
+    border: 3px #999999 solid;
+    border-left:none ;
+    border-right:none ;
+  
+}
+.newdetail-center>h2{
+    text-align: center;
+    font-size: 24px;
+    color: #333333;
+   
+}
+.newdetail-center div h6{
+    margin-bottom: 46px;
+    font-size: 12px;
+    color: #999999;
+    font-weight: inherit;
+}
+.newdetail-center-text{
+    margin-top: 47px;
+    margin-bottom: 47px;
+}
+.newdetail-center-tetbox p{
+    font-size: 12px;
+    color: #999999;
+    padding: 19px 25px 19px 25px;
+    background: #fafafa;
+    border: 1px #e2e2e2 solid;
+    line-height: 26px;
+}
+.newdetail-center h6{
+font-size: 12px;
+color: #999999;
+}
+hr{
+    margin: 19px 0;
+  
+}
+.imgp{
+    text-align: center;
+}
+.text-foot{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+.text-foot div span{
+    color: #14916a;
+}
+.text-foot div a{
+    text-decoration: none;
+    color: #333333;
+}
+.newdetail-center p{
+    line-height: 40px;
+}
